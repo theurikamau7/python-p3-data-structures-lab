@@ -56,11 +56,9 @@ print(american_food)
 
 
 def print_spiciest_foods(spicy_foods):
-    spiciest_foods = [] 
-    for food in spicy_foods:
-        if food["heat_level"] > 5:
-            spiciest_foods.append(food)
-    return spiciest_foods
+    spiciest_food = [
+        food for food in spicy_foods if food.get("heat_level") > 5]
+    print_spicy_foods(spiciest_food)
 
 def print_spicy_foods(food_list):
     for food in food_list:
