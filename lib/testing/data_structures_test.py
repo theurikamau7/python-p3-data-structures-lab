@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 #!/usr/bin/env python3
 
 from data_structures import get_names, get_spiciest_foods, print_spicy_foods,\
